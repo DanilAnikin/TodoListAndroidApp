@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:id="@+id/cbItemIsDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:buttonTint="@drawable/selector_check_box_tint"
+            android:minWidth="0dp"
+            android:minHeight="0dp" />
+
+        <ImageView
+            android:id="@+id/ivItemImportance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/ic_arrow_downward"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical"
+            android:paddingEnd="30dp"
+            android:paddingStart="3dp">
+
+            <TextView
+                android:id="@+id/tvItemText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:textColor="?attr/color_label_primary"
+                android:textSize="16sp"
+                tools:text="Сделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-то"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/tvWithDeadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/color_label_tertiary"
+                android:text="@string/tv_if_todo_item_has_deadline" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivItemDetailed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@drawable/ic_detail_info"
+        android:layout_marginTop="7dp"/>
+
+</FrameLayout>

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TodoListAndroidApp</string>
+    <string name="dummy_text">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet at corporis cumque dignissimos dolorum eaque eius eligendi, esse exercitationem impedit, ipsum laboriosam laborum natus odio placeat praesentium quos, rerum.
+    </string>
+    <string name="toolbar_title">Мои дела</string>
+    <string name="toolbar_tv_done_counter">Выполнено — %d</string>
+    <string name="tv_if_todo_item_has_deadline">дата</string>
 </resources>

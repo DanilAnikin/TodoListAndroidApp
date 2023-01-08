@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="color_blue" format="reference"/>
+    <attr name="screen_background_color" format="reference"/>
+    <attr name="toolbar_background_color" format="reference"/>
+    <attr name="color_red" format="reference"/>
+    <attr name="color_label_tertiary" format="reference"/>
+    <attr name="recyclerview_background_color" format="reference"/>
+    <attr name="color_label_primary" format="reference"/>
+    <attr name="color_green" format="reference"/>
+</resources>
