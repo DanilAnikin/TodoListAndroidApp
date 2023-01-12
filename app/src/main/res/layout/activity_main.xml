@@ -9,9 +9,11 @@
     android:fitsSystemWindows="true">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:elevation="20dp">
+        app:elevation="20dp"
+        android:background="@drawable/animation_list_toolbar">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
@@ -21,8 +23,10 @@
             app:toolbarId="@id/toolbar"
             app:expandedTitleMarginBottom="54dp"
             app:expandedTitleTextAppearance="@style/ExpandedToolbarTitleStyle"
-            app:contentScrim="?attr/toolbar_background_color"
-            android:background="?attr/screen_background_color">
+           >
+
+<!--            app:contentScrim="?attr/toolbar_background_color"-->
+<!--            android:background="?attr/screen_background_color"-->
 
             <com.google.android.material.appbar.MaterialToolbar
                 android:id="@+id/toolbar"

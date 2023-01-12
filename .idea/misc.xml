@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/animation_list_collapsing_toolbar.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/animation_list_toolbar.xml" value="0.147" />
         <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/check_box_tint.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/gradient_collapsing_toolbar_1.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/gradient_collapsing_toolbar_2.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/gradient_toolbar_2.xml" value="0.147" />
         <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/ic_add.xml" value="0.1375" />
         <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/ic_arrow_downward.xml" value="0.147" />
         <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/ic_detail_info.xml" value="0.147" />
@@ -15,6 +20,7 @@
         <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/recyclerview_rounded_corners.xml" value="0.147" />
         <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/selector_check_box_tint.xml" value="0.147" />
         <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/shape_recyclerview_rounded_corners.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/toolbar_gradient_1.xml" value="0.147" />
         <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/layout/activity_todo_item.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/layout/asd.xml" value="0.253125" />
