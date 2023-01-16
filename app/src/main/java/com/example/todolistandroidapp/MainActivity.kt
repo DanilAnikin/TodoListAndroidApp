@@ -19,20 +19,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        setSupportActionBar(binding.toolbar)
+        setSupportActionBar(binding.mainScreenToolbar)
         binding.tvDoneCounter.text = getString(
             R.string.toolbar_tv_done_counter,
             TodoItemsRepository.todoItemList.count { it.isDone })
 
 
-        binding.appBarLayout.addOnOffsetChangedListener(AppBarLayout.OnOffsetChangedListener { appBarLayout, verticalOffset ->
-            val toolbarAnimation = (appBarLayout.background as AnimationDrawable).apply {
-                setEnterFadeDuration(600)
-                setExitFadeDuration(600)
-            }
-
-            toolbarAnimation.start()
-        })
+//        binding.appBarLayout.addOnOffsetChangedListener(AppBarLayout.OnOffsetChangedListener { appBarLayout, verticalOffset ->
+//            val toolbarAnimation = (appBarLayout.background as AnimationDrawable).apply {
+////                setEnterFadeDuration(600)
+////                setExitFadeDuration(600)
+//            }
+//            toolbarAnimation.start()
+//        })
 
 
         binding.rvTodoItemList.apply {

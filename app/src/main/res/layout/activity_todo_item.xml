@@ -1,9 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TodoItemActivity"
-    android:orientation="vertical">
+    android:background="?attr/screen_background_color"
+    android:fitsSystemWindows="true"
+    tools:context=".TodoItemActivity">
 
-</LinearLayout>
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/screen_background_color"
+        android:fitsSystemWindows="true"
+        android:paddingVertical="5dp"
+        app:liftOnScroll="true">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/todoItemScreenToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentInsetEnd="@dimen/todo_item_screen_toolbar_content_inset"
+            app:contentInsetStart="@dimen/todo_item_screen_toolbar_content_inset">
+
+            <ImageView
+                android:id="@+id/ivClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_clear" />
+
+            <TextView
+                android:id="@+id/tvSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/tv_save"
+                android:textAllCaps="true"
+                android:textColor="?attr/color_blue"
+                android:textStyle="bold" />
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="80dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="16dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="?attr/recyclerview_background_color"
+                    app:cardCornerRadius="8dp">
+
+                    <EditText
+                        style="@style/TodoItemScreenText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:gravity="top"
+                        android:hint="@string/todo_item_edit_text_hint"
+                        android:minHeight="120dp"
+                        android:padding="16dp"
+                        android:textColorHint="?attr/color_label_tertiary"
+                        android:inputType="textMultiLine"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    style="@style/TodoItemScreenText"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/tv_importance_label" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Нет"
+                    android:textColor="?attr/color_label_tertiary" />
+
+                <com.google.android.material.divider.MaterialDivider
+                    style="@style/Divider"
+                    android:layout_marginTop="20dp" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="40dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/TodoItemScreenText"
+                            android:text="@string/tv_deadline_label" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2 июня 2023"
+                            android:textColor="?attr/color_blue" />
+
+                    </LinearLayout>
+
+                    <com.google.android.material.switchmaterial.SwitchMaterial
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center_vertical"
+                        tools:checked="true" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.divider.MaterialDivider style="@style/Divider" />
+
+            <TextView
+                style="@style/TodoItemScreenText"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tv_delete"
+                android:textColor="?attr/color_red"
+                app:drawableStartCompat="@drawable/ic_delete" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

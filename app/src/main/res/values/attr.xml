@@ -8,4 +8,5 @@
     <attr name="recyclerview_background_color" format="reference"/>
     <attr name="color_label_primary" format="reference"/>
     <attr name="color_green" format="reference"/>
+    <attr name="color_support_separator" format="reference"/>
 </resources>

@@ -2,11 +2,11 @@
     <!-- Base application theme. -->
     <style name="Theme.TodoListAndroidApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimary">@color/blue_dark</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondary">@color/blue_dark</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
@@ -20,5 +20,6 @@
         <item name="recyclerview_background_color">@color/background_secondary_dark</item>
         <item name="color_label_primary">@color/label_primary_dark</item>
         <item name="color_green">@color/green_dark</item>
+        <item name="color_support_separator">@color/support_separator_dark</item>
     </style>
 </resources>
