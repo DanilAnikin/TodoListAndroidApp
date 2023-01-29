@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="todo_item_screen_toolbar_content_inset">16dp</dimen>
+    <dimen name="layout_padding_horizontal">16dp</dimen>
+    <dimen name="todo_item_layout_icon_margin_top">7dp</dimen>
+</resources>

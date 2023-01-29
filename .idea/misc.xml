@@ -3,7 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/animation_list_collapsing_toolbar.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/animation_list_toolbar.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/check_box_tint.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/gradient_collapsing_toolbar_1.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/gradient_collapsing_toolbar_2.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/gradient_toolbar_2.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/ic_add.xml" value="0.1375" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/ic_arrow_downward.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/ic_clear.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/ic_delete.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/ic_detail_info.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/ic_double_exclamation_mark.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/ic_exclamation_mark.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/ic_eye.xml" value="0.1375" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/ic_eye_slash.xml" value="0.1375" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/ic_view_done.xml" value="0.1375" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/recyclerview_rounded_corners.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/selector_check_box_tint.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/shape_edit_text.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/shape_recyclerview_rounded_corners.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/drawable/toolbar_gradient_1.xml" value="0.147" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/layout/activity_todo_item.xml" value="0.264" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/layout/asd.xml" value="0.253125" />
+        <entry key="..\:/Users/danil/AndroidProjs/TodoListAndroidApp/app/src/main/res/layout/todo_item.xml" value="0.4" />
       </map>
     </option>
   </component>
