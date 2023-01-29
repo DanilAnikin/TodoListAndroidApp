@@ -38,7 +38,7 @@
             android:maxLines="3"
             android:textColor="?attr/color_label_primary"
             android:textSize="16sp"
-            tools:text="Сделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-тоСделать что-то" />
+            tools:text="@string/dummy_text" />
 
         <TextView
             android:id="@+id/tvWithDeadline"
