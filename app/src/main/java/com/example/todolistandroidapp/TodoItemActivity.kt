@@ -3,7 +3,6 @@ package com.example.todolistandroidapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.todolistandroidapp.databinding.ActivityTodoItemBinding
-import com.example.todolistandroidapp.databinding.TodoItemBinding
 
 class TodoItemActivity : AppCompatActivity() {
     private lateinit var binding: ActivityTodoItemBinding
